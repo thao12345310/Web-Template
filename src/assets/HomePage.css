@@ -1,0 +1,29 @@
+/* Style the navbar */
+#navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #2d3a6e;
+}
+
+#navbar a.login {
+  float: right;
+}
+/* Page content */
+.content {
+  padding: 16px;
+}
